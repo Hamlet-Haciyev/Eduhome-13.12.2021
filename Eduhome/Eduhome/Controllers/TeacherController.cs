@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Eduhome.Data;
+using Eduhome.ViewModel;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,19 @@ namespace Eduhome.Controllers
 {
     public class TeacherController : Controller
     {
+        private readonly AppDbContext _appDbContext;
+
+        public TeacherController(AppDbContext appDbContext)
+        {
+            _appDbContext = appDbContext;
+        }
         public IActionResult Index()
         {
-            return View();
+            VmTeacher vmTeacher = new VmTeacher();
+            vmTeacher.Teachers = _appDbContext.Teachers.ToList();
+            vmTeacher.Teacher_Socials = _appDbContext.Teacher_Socials.ToList();
+            vmTeacher.TeacherToSocials = _appDbContext.TeacherToSocials.ToList();
+            return View(vmTeacher);
         }
     }
 }

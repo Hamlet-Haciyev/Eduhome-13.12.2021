@@ -33,8 +33,15 @@ using Eduhome.ViewComponents;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\FX505GT\Desktop\ASP.NET\Eduhome\Eduhome\Views\_ViewImports.cshtml"
+using Eduhome.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c83e0cf497496a397612270f2ddae83d977aefe5", @"/Views/CourseDetails/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd90d33ca42811cc3537619127acebca5f3b5d01", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4029453a71a7fe9e1e28dd86c5a7b18df529162c", @"/Views/_ViewImports.cshtml")]
     public class Views_CourseDetails_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("contact-form"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -133,7 +140,7 @@ Write(await Component.InvokeAsync("VcBanner"));
                         <h3>LEAVE A REPLY</h3>
                         <p>I must explain to you how all this a mistaken idea of ncing great explorer of the rut<br> the is lder of human happinescias unde omnis iste natus error sit volptatem </p>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c83e0cf497496a397612270f2ddae83d977aefe59366", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c83e0cf497496a397612270f2ddae83d977aefe59547", async() => {
                 WriteLiteral(@"
                             <div class=""row"">
                                 <div class=""col-md-12"">
@@ -180,7 +187,7 @@ Write(await Component.InvokeAsync("VcBanner"));
                         <h3>search</h3>
                         <div class=""blog-search"">
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c83e0cf497496a397612270f2ddae83d977aefe512505", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c83e0cf497496a397612270f2ddae83d977aefe512686", async() => {
                 WriteLiteral(@"
                                 <input type=""search"" placeholder=""Search..."" name=""search"" />
                                 <button type=""submit"">

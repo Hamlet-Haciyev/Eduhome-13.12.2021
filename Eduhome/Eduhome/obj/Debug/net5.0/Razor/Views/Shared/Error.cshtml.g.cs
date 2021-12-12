@@ -33,8 +33,15 @@ using Eduhome.ViewComponents;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\FX505GT\Desktop\ASP.NET\Eduhome\Eduhome\Views\_ViewImports.cshtml"
+using Eduhome.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd90d33ca42811cc3537619127acebca5f3b5d01", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4029453a71a7fe9e1e28dd86c5a7b18df529162c", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998
